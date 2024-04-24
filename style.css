@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Gloria Hallelujah", cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFD9DA;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body p {
+    font-size: 12px;
+    color: #474448;
+    margin-top: 10px;
+}
+
+#sticky-note {
+    width: 35px;
+    margin-left: 10px;
+}
+
+.container {
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    width: 500px;
+}
+
+.todo-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.todo-body {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background: #EFF2F1;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.todo-body input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.todo-body img {
+    cursor: pointer;
+    height: 50px;
+    padding: 15px;
+    background: #ea638c;
+    border-radius: 40px;
+}
+
+.todo-body img:hover {
+    cursor: pointer;
+    height: 50px;
+    padding: 15px;
+    background: #f086a8;
+    border-radius: 40px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.edit {
+    width: 25px;
+}
+
+.delete {
+    width: 26px;
+}
+
+.todo-controls {
+    padding: 3px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
